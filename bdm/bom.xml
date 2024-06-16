@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.PlanEstrategico">
+            <fields>
+                <field type="STRING" length="255" name="mision" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="comentarios" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="aprobar" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="estrategico" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="revisarPlanesAprovacion" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="informacionActualizada" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="planPresentado" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="observacionCiudadana" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="publicadoPagina" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="planArticulado" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="mensajeRemitido" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="idPlan" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nombrePlan" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="correo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="objetivoPlan" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="responsablePlan" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="fechaInicio" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="fechafinal" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="estadoPlan" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="upload" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="situacionActual" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="problemasIdentificacos" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="acciones" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="plazos" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="recursosNecesarios" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="presupuesto" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="presupuestoasignado" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="monitoreo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="audienciaObjetivo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="vision" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaMisionVision" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaAnalsisEntorno" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaObjetivosEstrategicos" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaPlanesAccion" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaAsignacionRecursos" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaMonitoreo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="observaciones" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
